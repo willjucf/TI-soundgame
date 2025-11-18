@@ -1,0 +1,52 @@
+# ===========================
+# Code Composer Studio (CCS)
+# ===========================
+
+# Build output folders
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# CCS/Eclipse metadata
+.settings/
+.metadata/
+.project
+.cproject
+.ccsproject
+.launches/
+
+# Compiled objects, binaries, maps
+*.obj
+*.map
+*.out
+*.o
+*.d
+*.hex
+*.elf
+*.bin
+
+# TI-specific generated linker files
+lnk_*_*.cmd
+*.cmd
+
+# Automatically generated temp files
+*.tmp
+*.log
+*.dep
+
+# Backup / misc
+*.bak
+*.swp
+*.orig
+
+# ===========================
+# Ignore typical OS clutter
+# ===========================
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS 
+.DS_Store
